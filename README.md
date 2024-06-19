@@ -15,17 +15,47 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+         .Go to the Visual Studio Code Download page.
+         .Select Your Operating System
+         .Download the Installer
+         .Run the Installer
+         .Launch Visual Studio Code
+         .Install Additional Extensions
+
+
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+         .Go to the Git for Windows download page and download
+         .Open a terminal or Git Bash
+         .set your user name and email address and verify(git config --global user.name "name")
+         . Create a GitHub Account
+         .Initialize a Git Repository and Make Your First Commit
+          Initialize a Repository(git init)
+         .Add Files and Make a Commit(git add,git commit)
+         .Create a New Repository on GitHub
+         .Link Your Local Repository to GitHub and Push
 
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+         .install python and verify installation in git bash(python -v)
+         .Install Node.js,ruby and compilers
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+         .Install pip for Python for windows
+         .Run the script:
+         .Verify the installation(pip -v)
+         .Install npm for Node.js
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+         .download installer
+         .run installer
+         .Select Products and Features:
+         .Check Requirements
+         .verify installation
+         .Start MySQL Serve(sudo systemctl start mysql)
+         .Enable MySQL to Start at Boot(sudo systemctl enable mysql)
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
